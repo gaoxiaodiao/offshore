@@ -1,0 +1,26 @@
+POST /DocumentsService.asmx HTTP/1.1
+Accept: application/xml, text/xml, */*; q=0.01
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9,ja;q=0.8
+Authorization: Basic c3ZjX2lpczpWaW50YWdlIQ==
+Cache-Control: no-cache
+Connection: keep-alive
+Content-Length: 353
+Content-Type: text/xml
+Cookie: ASP.NET_SessionId=i3m34yq03poombchhpjprliw
+Host: 172.16.1.24
+Origin: http://172.16.1.24
+Pragma: no-cache
+Referer: http://172.16.1.24/dashboard?
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <getDocuments xmlns="http://tempuri.org/">
+      <docName>dsasas</docName>
+	<author>123</author>
+    </getDocuments>
+  </soap:Body>
+</soap:Envelope>
